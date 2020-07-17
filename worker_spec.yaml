@@ -1,0 +1,22 @@
+kind: Pod
+metadata:
+  labels:
+    foo: bar
+spec:
+  replicas: 2
+  restartPolicy: Never
+  containers:
+    - image: gcr.io/dev/dask-k8s-flow:0.1.0
+      imagePullPolicy: IfNotPresent
+      args: [dask-worker, --nthreads, "2", --no-bokeh, --memory-limit, 4GB]
+      name: dask-worker
+      env:
+        - name: EXTRA_PIP_PACKAGES
+          value: fastparquet git+https://github.com/dask/distributed
+      resources:
+        limits:
+          cpu: "2"
+          memory: 4G
+        requests:
+          cpu: "2"
+          memory: 2G
