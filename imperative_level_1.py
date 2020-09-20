@@ -25,7 +25,7 @@ l = Load()
 flow = Flow('Evolving ETL')
 
 # Set dependency graph
-flow.set_dependencies(t, keyword_tasks=dict(data=e))
-flow.set_dependencies(l, keyword_tasks=dict(data=t))
+flow.set_dependencies(t, keyword_tasks={'data': e})
+flow.set_dependencies(l, keyword_tasks={'data': t})
 
 flow.run() # Prints the data
