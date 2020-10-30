@@ -1,3 +1,4 @@
+import requests
 from random import sample
 from datetime import datetime, timedelta
 
