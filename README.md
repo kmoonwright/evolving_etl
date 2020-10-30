@@ -1,5 +1,6 @@
 # Evolving ETL
-A series of data pipelines demonstrating Prefect Core workflow semantics. Each data pipeline builds on the previous level, adding features and functionality to every subsequent flow.
+A series of data pipelines demonstrating Prefect Core/Cloud workflow semantics. Each data pipeline builds on the previous level, adding features and functionality with every subsequent flow.
+
 
 Each level of the Evolving ETL demonstrates the following:
 
@@ -22,6 +23,6 @@ Each level of the Evolving ETL demonstrates the following:
 ⋅⋅* **Level 5** - Deployment, storage, flow environments, executors, registering to Prefect Cloud
 
 
-Presentation:
+### Recent presentations:
 Prefect/Intricity/BladeBridge Webinar (07/15/20)
 Youtube - Prefect channel
