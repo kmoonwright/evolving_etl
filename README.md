@@ -5,22 +5,22 @@ A series of data pipelines demonstrating Prefect Core/Cloud workflow semantics. 
 Each level of the Evolving ETL demonstrates the following:
 
 ## Local Evolving ETL
-⋅⋅* **Level 1** - Functional & Imperative API, task decorators, flow context, data dependencies, Task subclassing, flow methods
+* **Level 1** - Functional & Imperative API, task decorators, flow context, data dependencies, Task subclassing, flow methods
 
-⋅⋅* **Level 2** - Flow/task dynamism, parameters, mapping, control flow semantics, parameterized scheduling
+* **Level 2** - Flow/task dynamism, parameters, mapping, control flow semantics, parameterized scheduling
 
-⋅⋅* **Level 3** - Task level configurations, retries, results, triggers, state handlers, logger
+* **Level 3** - Task level configurations, retries, results, triggers, state handlers, logger
 
 ## Cloud Evolving ETL
-⋅⋅* **Level 1** - Functional & Imperative API, task decorators, flow context, data dependencies, Task subclassing, flow methods
+* **Level 1** - Functional & Imperative API, task decorators, flow context, data dependencies, Task subclassing, flow methods
 
-⋅⋅* **Level 2** - Flow Dynamism, Parameters, mapping, control flow semantics
+* **Level 2** - Flow Dynamism, Parameters, mapping, control flow semantics
 
-⋅⋅* **Level 3** - Task & Flow Level Configuration, Results, retries, triggers
+* **Level 3** - Task & Flow Level Configuration, Results, retries, triggers
 
-⋅⋅* **Level 4** - Orchestration, utility functions, state handlers, parameterized scheduling
+* **Level 4** - Orchestration, utility functions, state handlers, parameterized scheduling
 
-⋅⋅* **Level 5** - Deployment, storage, flow environments, executors, registering to Prefect Cloud
+* **Level 5** - Deployment, storage, flow environments, executors, registering to Prefect Cloud
 
 
 ### Recent presentations:
